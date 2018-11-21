@@ -1,5 +1,8 @@
+# Beispielanalyse Hypothesentest & Modellierung
 
-# Benötigte Pakete
+# Fragestellung: Untersuchen Sie den Zusammenhang der Variablen Rechnungshöhe, Trinkgeld und Geschlecht des tips-Datensatzes. 
+
+# Laden der Umgebung
 library(mosaic)
 
 # 1. Datensatz downloaden
@@ -13,8 +16,13 @@ tips <- read.csv2("tips.csv")
 tips <- tips %>%
   select(total_bill, tip, sex)
 
+
 # 4. Deskription des Datensatzes
 
+# 4.1 Kennzahlen
+inspect(tips)
+
+# 4.2 Visualisierungen
 # Verteilung der Gesamtrechnungshöhe
 histogram(~ total_bill, data = tips)
 
@@ -29,7 +37,6 @@ bargraph(~ sex, data = tips)
 
 # Verteilung der Gesamtrechnungshöhe nach Geschlecht
 histogram(~ total_bill | sex, data = tips)
-
 
 # Verteilung der Trinkgeldhöhe nach Geschlecht
 histogram(~ tip | sex, data = tips)
@@ -48,16 +55,24 @@ t.test(~ total_bill | sex, data = tips)
 t.test(~ tip | sex, data = tips)
 
 # H0_C: Es gibt keinen Zusammenhang zwischen der Rechnungshöhe und der Trinkgeldhöhe.
+cor.test(tip ~ total_bill, data = tips)
+
+# Alternative über Modellierung via lineare Regression (Zwei Variablen)
 reg_res <- lm(tip ~ total_bill, data = tips)
 summary(reg_res)
 plotModel(reg_res)
 
-# H0_D: Es gibt keinen Unterschied bei der mittleren Trinkgeldhöhe zwischen männlich und weiblich.
-reg_res2 <- lm(tip ~ sex, data = tips)
+
+
+
+
+# 6. Modellierung der Trinkgeldhöhe (Multivariat, mehr als zwei Variablen)
+reg_res2 <- lm(tip ~ total_bill + sex, data = tips)
 summary(reg_res2)
 plotModel(reg_res2)
 
-# 6. Modellierung der Trinkgeldhöhe
-reg_res3 <- lm(tip ~ total_bill + sex, data = tips)
+# Zusätzlich ein Interaktionsterm zwischen Rechnungshöhe und Geschlecht
+reg_res3 <- lm(tip ~ total_bill + sex + total_bill:sex, data = tips)
 summary(reg_res3)
 plotModel(reg_res3)
+
