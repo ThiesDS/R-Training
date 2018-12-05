@@ -2,6 +2,9 @@
 # Pakete laden
 library(mosaic)
 
+# Workingdirektory setzen
+setwd("~/OneDrive - Traum-Ferienwohnungen GmbH/Privat/Sven/FOM/R-Training")
+
 # Einlesen der Daten
 data <- read.csv2("Daten_Allbus/allbus.csv")
 
