@@ -6,6 +6,7 @@
 library(mosaic)
 
 # Workingdirektory setzen
+# (Durch eigenes Workingdirektory ersetzen!)
 setwd("~/OneDrive - Traum-Ferienwohnungen GmbH/Privat/Sven/FOM/R-Training")
 
 # 1. Datensatz downloaden
@@ -17,20 +18,14 @@ tips <- read.csv2("tips.csv")
 # 3. Manipulation von Daten
 # -> Nur interessierende Variablen
 tips <- tips %>%
-  select(total_bill, tip, sex)
+  select(total_bill, 
+         tip, 
+         sex)
 
+inspect(tips)
 
-
-
-
-
-
-
-
-
-
-
-
+tips <- tips2 %>%
+  mutate(sex = as.factor(sex))
 
 
 
@@ -54,7 +49,6 @@ histogram(~ total_bill, data = tips)
 
 
 
-
 # Verteilung der Trinkgeldhöhe 
 histogram(~ tip, data = tips)
 
@@ -72,7 +66,7 @@ xyplot(tip ~ total_bill, data = tips)
 
 
 # Anteil der Geschlechter
-bargraph(~ sex, data = tips)
+bargraph(~ sex, data = tips, type = "proportion")
 
 
 
@@ -96,6 +90,7 @@ histogram(~ tip | sex, data = tips)
 
 
 
+
 # Alternative bzw. komprimierte Darstellung der beiden Verteilungen nur auf Basis der Quantile
 bwplot(tip ~ sex, data = tips)
 
@@ -106,12 +101,18 @@ bwplot(tip ~ sex, data = tips)
 
 
 
-
-
-
 # 5. Inferenzstatistik
 # H0_A: Es gibt keinen Unterschied bei der mittleren Rechnungshöhe zwischen männlich und weiblich.
+
+# Mittlere Rechnungshöhe in den beiden Gruppen:
+mean( ~total_bill | sex, data = tips)
+mean( total_bill ~ sex, data = tips)
+
+
 t.test(~ total_bill | sex, data = tips)
+
+
+
 
 # ============================================================
 # Alternative über simulationsbasierte Inferenz
@@ -121,6 +122,7 @@ emp_beob <- diffmean(~total_bill | sex, data = tips)
 histogram(~diffmean, data = nullvtlg,v = emp_beob)
 p_value <- prop(abs(nullvtlg$diffmean)>abs(emp_beob))
 # ============================================================
+
 
 
 # H0_B: Es gibt keinen Unterschied bei der mittleren Trinkgeldhöhe zwischen männlich und weiblich.
@@ -141,8 +143,12 @@ cor.test(tip ~ total_bill, data = tips)
 
 # Alternative über Modellierung via lineare Regression (Zwei Variablen)
 reg_res <- lm(tip ~ total_bill, data = tips)
-summary(reg_res)
+
 plotModel(reg_res)
+
+
+summary(reg_res)
+
 
 
 

@@ -23,5 +23,17 @@ data_subset <- data %>%
          ep03,
          ep04)
 
+
 # Datensatz Überblick
 inspect(data_subset)
+
+# Alle NA Werte rausschmeißen
+data_subset_filtered <- data_subset %>%
+  filter(!is.na(yborn),
+         !is.na(age),
+         !is.na(ep03),
+         !is.na(ep04))
+
+# Datensatzüberblick
+inspect(data_subset_filtered)
+
