@@ -1,0 +1,6 @@
+1. Sortierung der Dateien zur besseren Orientierung
+2. Anweisung vor dem Training: 
+	- R und RStudio in der neusten Version
+	- Repository herunterladen UND entziehen
+3. Vor dem inhaltlichen Einstieg einen Einstieg in Computer und RStudio
+4. Einfügen von Missing Values in Daten_Klickrate_TFW.csv
