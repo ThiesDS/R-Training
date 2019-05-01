@@ -1,6 +1,6 @@
 Orientierungstabellen.xlsx
-simulate_tfw_conversion.R
-*.csv
 .Rhistory
 .DS_Store
-.Rproj.user
+/old
+~$*
+.Rproj.user/
