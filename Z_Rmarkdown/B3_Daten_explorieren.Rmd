@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```
 
-HINWEIS: Für die Beantwortung der Aufgaben und für weitere Informationen können die Cheat Sheets *CS3-Kennzahlen*, *CS4-Visualisierungen-mit-Mosaic* und *CS5-Visualisierungen-generell* zu Hilfe genommen werden.
+HINWEIS: Für die Beantwortung der Aufgaben und für weitere Informationen können die Cheat Sheets *C3-Kennzahlen*, *C3-Visualisierungen-basics* und *C3-Visualisierungen-advanced* zu Hilfe genommen werden.
 
 ### Aufgabe a) Kennzahlen-Summary des Datensatzes 
 

@@ -1,0 +1,74 @@
+---
+title: "Aufgabe 4: Daten modellieren"
+author: "FOM R-Training"
+date: ""
+output:
+  pdf_document:
+    includes:
+      in_header: header.tex
+documentclass: article
+classoption: a4paper, 10pt
+---
+\setstretch{1.44}
+
+\fancyhead{}
+\fancyhead[LE,RO]{\textup{\nouppercase{\leftmark}}}   
+
+\fancyhead[LO,RE]{\textsl{\rightmark}}  
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+HINWEIS: Für die Beantwortung der Aufgaben und für weitere Informationen kann das Cheat Sheet *C4-Datenanalyse-mit-Mosaic* zu Hilfe genommen werden.
+
+### Aufgabe a) Hypothesentest auf Mittelwertdifferenz
+
+Die Funktion `t.test` aus dem Paket `mosaic` führt einen statistisschen Hypothesentest des Mittelwertes durch. Je nach spezifikation führt die Funktion einen einfachen Mittelwerttest gegen einen festen wert durch
+
+```{r Aufg1, eval=FALSE, echo = T, results = 'hide'}
+
+t.test( ~ variable_of_interest, data=mydata, 
+        mu=fixed_value,  alternative="greater")
+
+```
+
+oder einen Test auf Differenz des Mittelwerts zwischen zwei Gruppen
+
+```{r Aufg2, eval=FALSE, echo = T, results = 'hide'}
+
+t.test( variable_of_interest ~ grouping_variable, data=mydata)
+
+```
+
+Laden Sie den Datensatz `tips.csv` ein und testen Sie die folgenden Nullhypothesen zum Niveau Alpha = 0.05:
+
+* H0: Die mittlere Rechnungshöhe ist nicht größer als 15$.
+* H0: Es gibt keinen unterschied in der Trinkgeldhöhe zwischen Rauchern und Nichtrauchern.
+
+
+------------
+
+### Aufgabe b) Lineare Regression
+
+Die Funktion `lm` passt ein lineares Modell an die Daten an und gibt u.a. die geschätzen Parameter und die Modellgüte (R^2) zurück. Der befehl zum anpassen des Modells lautet:
+
+```{r Aufg3, eval=FALSE, echo = T, results = 'hide'}
+
+reg_fit <- lm(dependent_variable ~ independet_variable, data = mydata)
+
+```
+
+und der Befehl zum ausgeben der Ergebnisse 
+
+```{r Aufg4, eval=FALSE, echo = T, results = 'hide'}
+
+summary(reg_fit)
+
+```
+
+Passen Sie ein Modell an, was die Trinkgeldhöhe durch die Höhe des Rechnungsbetrages erklärt. Wie hoch ist das R^2?
+
+------------

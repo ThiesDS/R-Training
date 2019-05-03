@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```
 
-HINWEIS: Für die Beantwortung der Aufgaben und für weitere Informationen kann das Cheat Sheet *CS2-Data-Transformation-with-dplyr* zu Hilfe genommen werden.
+HINWEIS: Für die Beantwortung der Aufgaben und für weitere Informationen kann das Cheat Sheet *C2-Data-Transformation-with-dplyr* zu Hilfe genommen werden.
 
 ### Aufgabe a) Filtern von Beobachtungen
 

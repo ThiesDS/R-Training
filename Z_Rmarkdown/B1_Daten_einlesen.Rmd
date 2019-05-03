@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```
 
-HINWEIS: Für die Beantwortung der Aufgaben und für weitere Informationen kann das Cheat Sheet *CS0-Base-R*, insb. der Abschnitt *Reading and Writing Data* zu Hilfe genommen werden.
+HINWEIS: Für die Beantwortung der Aufgaben und für weitere Informationen kann das Cheat Sheet *C0-Base-R*, insb. der Abschnitt *Reading and Writing Data* zu Hilfe genommen werden.
 
 ### Aufgabe a) Einlesen einer .csv-Datei I
 
