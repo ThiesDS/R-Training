@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.16)  3 MAY 2019 19:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.16)  4 MAY 2019 13:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -968,32 +968,33 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 152.
 
-Overfull \hbox (15.79822pt too wide) in paragraph at lines 180--184
-\T1/lmr/m/n/10 (-20) Verwende die \T1/pcr/m/n/10 arrange\T1/lmr/m/n/10 (-20) --
-Funktion und spei-che-re in ei-nem neu-en Da-taf-ra-me mit Na-men \T1/pcr/m/n/1
-0 Alcohol.2008.sort
+Overfull \hbox (14.16489pt too wide) in paragraph at lines 185--189
+\T1/lmr/m/n/10 (-20) Verwende die \T1/pcr/m/n/10 arrange\T1/lmr/m/n/10 (-20) -F
+unktion und spei-che-re in ei-nem neu-en Da-taf-ra-me mit Na-men \T1/pcr/m/n/10
+ Alcohol.2008.sort
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 203.
+[2]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 203.
 (./B2_Daten_aufbereiten.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 203.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 203.
 Package rerunfilecheck Info: File `B2_Daten_aufbereiten.out' has not changed.
-(rerunfilecheck)             Checksum: 81C57C781C3B18E977234A0875F30457;818.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
+(rerunfilecheck)             Checksum: B2CF9A14255CAFABFAC7F91898D4C0D0;962.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 203.
  ) 
 Here is how much of TeX's memory you used:
- 12995 strings out of 492995
- 187086 string characters out of 6132703
- 296177 words of memory out of 5000000
- 16367 multiletter control sequences out of 15000+600000
- 27627 words of font info for 39 fonts, out of 8000000 for 9000
+ 13015 strings out of 492995
+ 187278 string characters out of 6132703
+ 297265 words of memory out of 5000000
+ 16377 multiletter control sequences out of 15000+600000
+ 30888 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,5n,43p,298b,351s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,11n,43p,248b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2017/te
 xmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2017/texmf-dist/f
@@ -1002,10 +1003,10 @@ public/lm/lmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/l
 mri10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/lo
 cal/texlive/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on B2_Daten_aufbereiten.pdf (1 page, 134464 bytes).
+Output written on B2_Daten_aufbereiten.pdf (2 pages, 135024 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
- 8225 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 82 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 10305 words of extra memory for PDF output out of 12000 (max. 10000000)
 

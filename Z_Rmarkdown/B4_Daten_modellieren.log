@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.16)  3 MAY 2019 19:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.10.16)  4 MAY 2019 13:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -967,31 +967,31 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 153.
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 172.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 174.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 210.
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 210.
 (./B4_Daten_modellieren.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 210.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 210.
 Package rerunfilecheck Info: File `B4_Daten_modellieren.out' has not changed.
-(rerunfilecheck)             Checksum: 2D78953F2A774BBADE545A8B601F8F99;505.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 207.
+(rerunfilecheck)             Checksum: AE98AA47396F09A015C6A511265D5851;577.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 210.
  ) 
 Here is how much of TeX's memory you used:
- 13016 strings out of 492995
- 187803 string characters out of 6132703
- 296091 words of memory out of 5000000
- 16392 multiletter control sequences out of 15000+600000
- 27649 words of font info for 37 fonts, out of 8000000 for 9000
+ 13020 strings out of 492995
+ 187827 string characters out of 6132703
+ 297135 words of memory out of 5000000
+ 16396 multiletter control sequences out of 15000+600000
+ 27566 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,5n,43p,363b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,5n,43p,299b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
 /texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2017/t
 exmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2017/texmf-dist/font
@@ -1001,10 +1001,10 @@ blic/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/t
 exlive/2017/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2
 017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on B4_Daten_modellieren.pdf (1 page, 133513 bytes).
+Output written on B4_Daten_modellieren.pdf (1 page, 133638 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 8209 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 8225 words of extra memory for PDF output out of 10000 (max. 10000000)
 
