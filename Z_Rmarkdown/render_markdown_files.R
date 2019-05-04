@@ -6,7 +6,7 @@ rmarkdown::render('Z_Rmarkdown/B4_Daten_modellieren.Rmd', output_file = '../B4_D
 
 # Clean all unnecessary files after compiling
 rules <- c('.log', '.vrb', '.nav', '.snm', '.toc', 
-           '-tikzDictionary', '.tex', '.synctex.gz')
+           '-tikzDictionary', '.synctex.gz')
 file.remove(list.files(pattern = paste0('\\',rules ,'$', collapse = '|')))
 
 
