@@ -1,6 +1,6 @@
 Orientierungstabellen.xlsx
-.Rhistory
-.DS_Store
+*.Rhistory
+*.DS_Store
 /old
 ~$*
 .Rproj.user/
