@@ -38,7 +38,7 @@ dataframe.new <- dataframe.old %>%
 
 ### Aufgabe a) 
 
-Filtere alle Beobachtungen aus dem Datensatz `Alcohol`, die als Land *Deutschland* haben und speichere das Ergebnis in einem neuen Dataframe `Alcohol.GER`. 
+Filtere alle Beobachtungen aus dem Datensatz `Alcohol`, die als Land *Germany* haben und speichere das Ergebnis in einem neuen Dataframe `Alcohol.GER`. 
 
 Der oben beschriebene Syntax der Funktion ist der gleiche für `filter`,`select`,`arrange`,`mutate`, `group_by` und `summarize`. Deswegen wird auf weitere Illustrationen im Folgenden verzichtet.
 
@@ -48,7 +48,7 @@ Der oben beschriebene Syntax der Funktion ist der gleiche für `filter`,`select`
 
 ### Aufgabe b) 
 
-Verwende die `filter`- und `select`-Funktionen und speichere in einem neuen Dataframe mit Namen `Alcohol.2008` alle Beobachtungen, die als Jahr *2008* haben und wähle nur die Variablen `country` und `year` aus.
+Verwende die `filter`- und `select`-Funktionen und speichere in einem neuen Dataframe mit Namen `Alcohol.2008` alle Beobachtungen, die als Jahr *2008* haben und wähle nur die Variablen `country`, `year` und `alcohol` aus.
 
 ------------
 
@@ -56,7 +56,7 @@ Verwende die `filter`- und `select`-Funktionen und speichere in einem neuen Data
 
 ### Aufgabe c) 
 
-Verwende die `arrange`-Funktion und speichere in einem neuen Dataframe mit Namen `Alcohol.2008.sort` alle Beobachtungen, die als Jahr *2008* haben und sortiere nach den Alkoholgehalt. Welches Land hatte im Jahr 2008 den höchsten Alkoholkonsum?
+Verwende die `arrange`-Funktion und speichere in einem neuen Dataframe mit Namen `Alcohol.2008.sort` alle Beobachtungen, die als Jahr *2008* haben, wähle nur die Variablen `country`, `year` und `alcohol` aus und sortiere nach den Alkoholgehalt. Welches Land hatte im Jahr 2008 den höchsten Alkoholkonsum?
 
 ------------
 
@@ -64,7 +64,7 @@ Verwende die `arrange`-Funktion und speichere in einem neuen Dataframe mit Namen
 
 ### Aufgabe d) 
 
-Verwende die `mutate`-Funktion, um eine neue Spalte in einem neuen Dataframe mit Namen `Alcohol.2008.rang` zu erzeugen. Sortiere den Dataframe nach der Spalte `rang`. Auf welchem Platz liegt Deutschland und mit wie viel Alkoholkonsum? Wer ist auf Rang 1 mit wie viel Alkoholkonsum?
+Verwende die `mutate`-Funktion, um eine neue Spalte `rang` zu erzeugen. Ränge erzäugst du mit Hilfe der Funktion `rank()`. Diese Spalte soll den Rang des Alkoholkonsums in absteigender Reihenfolge enthalten. Speichere diese Daten in einem neuen Dataframe mit Namen `Alcohol.2008.rang`. Sortiere den Dataframe nach der Spalte `rang`. Auf welchem Platz liegt Deutschland und mit wie viel Alkoholkonsum? Wer ist auf Rang 1 mit wie viel Alkoholkonsum?
 
 
 
