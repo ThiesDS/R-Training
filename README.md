@@ -1,6 +1,6 @@
 # R-Training
 
-Dieses Projekt enthält Material zu einem zweitägigen R-Training. Momentan wird das R-Training an der FOM Bremen gegeben. Die Materialen umfassen 
+Dieses Projekt enthält Material zu einem 3-Stündigen R-Training. Momentan wird das R-Training an der FOM Bremen gegeben. Die Materialen umfassen 
 
 * (A) Slides,
 * (B) Übungsaufgaben,
@@ -13,4 +13,4 @@ Dieses Projekt enthält Material zu einem zweitägigen R-Training. Momentan wird
 
 Die Materialen werden im Rahmen der Veranstaltung R-Training an der FOM Bremen verwendet. Sie können aber auch zum Selbststudium verwendet werden. 
 
-Die Slides (A) führen durch das Material und verweisen an den entsprechenden Stellen auf die Aufgaben (B) und auf Hilfestellung durch Cheat Sheets (C). Die Aufgaben (B) verwenden teilweise die Datensätze (D), können aber auch zu Übungszwecken verwendet werden. Die Lösungen (E) dienen zur Selbstkontrolle.
+Die Slides (A) führen durch das Material und verweisen an den entsprechenden Stellen auf die Übungsaufgaben (B) und auf Hilfestellung durch Cheat Sheets (C). Die Übungsaufgaben (B) verwenden u.a. die Datensätze (D). Die Lösungen (E) dienen zur Selbstkontrolle.
