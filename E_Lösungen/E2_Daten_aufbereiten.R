@@ -19,7 +19,7 @@ Alcohol.2008 <- Alcohol %>%
 Alcohol.2008.sort <- Alcohol %>%
   filter(year == 2008) %>%
   select(country, year, alcohol) %>%
-  arrange(alcohol)
+  arrange(-alcohol)
 
 
 # Lösung Aufgabe d)

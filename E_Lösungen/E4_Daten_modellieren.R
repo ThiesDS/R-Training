@@ -21,3 +21,6 @@ summary(reg_fit)
 
 # Wie hoch ist das R^2?
 # -> 45%
+
+# Zusatz: Visualisierung der Regression
+plotModel(reg_fit)
