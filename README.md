@@ -1,6 +1,6 @@
 # R-Training
 
-Dieses Projekt enthält Material zu einem 3-Stündigen R-Training. Momentan wird das R-Training an der FOM Bremen gegeben. Die Materialen umfassen 
+Dieses Projekt enthält Material zu einem 3-Stündigen R-Training. Das R-Training ist ursprünglich für die FOM konzipiert worden, kann aber auch außerhalb der FOM verwendet werden. Die Materialen umfassen 
 
 * (A) Slides,
 * (B) Übungsaufgaben,
